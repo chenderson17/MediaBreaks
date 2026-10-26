@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 500px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
+
+/* Laptop-sized space becomes available */
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
